@@ -1,0 +1,47 @@
+#container {
+    border-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 300px;
+    margin: 20px auto;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/78/9d/10/789d108ae0ba9a93266170031c109189.jpg");
+}
+div{
+    margin: 0px;
+    padding: 0px;
+    width: 25%;
+    height: 25%;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid black ;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.democlass {
+    color: red;
+
+  }
+  #result{
+      border-color: black;
+      width: 100px;
+  }
+  p{
+      text-align: center;
+  }
+
+  button{
+      position: absolute;
+      top: 60%;
+      left:50%;
+
+  }
